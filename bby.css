@@ -1,0 +1,203 @@
+ /* body{ 
+        background-color: rgb(176, 176, 184);
+    }
+    h1{
+        color:rgb(16, 194, 126);;
+        margin-left: 40px;
+    }
+    p.one {
+        border-style: solid;
+        border-color: black;
+      }
+      
+      p.two {
+        border-style: solid;
+        border-color: grey;
+      } 
+      
+      p.three {
+        border-style: dotted;
+        border-color: black;
+      } 
+      div {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green; 
+        padding: 50px;
+        margin: 20px;
+      }
+      div {
+        height: 400px;
+        width: 100%;
+        border: 1px solid #4CAF50;
+      }
+       div {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+        }
+        .container {
+            position: relative;
+          }
+          
+          .black-box {
+            position: relative;
+            z-index: 1;
+            border: 2px solid black;
+            height: 100px;
+            margin: 30px;
+          }
+          
+          .gray-box {
+            position: absolute;
+            z-index: 3;
+            background: lightgray;
+            height: 60px;
+            width: 70%;
+            left: 50px;
+            top: 50px;
+          }
+          .green-box {
+            position: absolute;
+            z-index: 2;
+            background: lightgreen;
+            width: 35%;
+            left: 270px;
+            top: -15px;
+            height: 100px;
+          }  */   
+          p{ 
+            color:aqua;
+        }
+        h1{
+            color:brown;
+        } 
+        .aclass {
+            color:rgb(10, 101, 180)
+        }
+        
+        h1:hover{
+          color:blue;
+        }
+        #aclass:hover{
+          color:purple;
+        }
+        li:first-child{
+          color:darkgreen;
+        }
+        li:last-child{
+          color:chartreuse;
+        }
+        li:only-child{
+          color:brown;
+        }
+        #myprofile-link:unvisited{
+          color: chocolate;
+        }
+        #myprofile-link:link{
+          
+        }
+        textarea~button{
+          color: chartreuse;
+        }
+        header{
+          background-color:green;
+          padding: 20px;
+        }
+        nav ul{
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          justify-content:centre;
+          display:flex;
+        }
+        
+        nav ul{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          justify-content: center;
+          display: flex;
+
+        : n}
+        nav li{
+          display: inline;
+          margin-right: 50px;
+          font-size: medium;
+        }
+        nav a{
+          color:black;
+          text-decorationone;
+        }
+
+
+         .mylifestyle{
+          display: flex;
+          flex-wrap: nowrap;
+          background-color:rgb(45, 148, 148);
+
+         
+          
+         }
+         .mylifestyle > div{
+         width: 80%;
+         line-height: 60px;
+         background-color: azure;
+         text-align: center;
+         padding: 1px;
+         margin: 10px;
+         font-size: 25px;
+
+
+         }
+         .gridcontainer{
+          display: grid;
+          gap: 10px;
+          background-color: aquamarine;
+          padding: 10px;
+         }
+         .griditem{
+          background-color: darkcyan;
+          text-align: center;
+          padding: 20px;
+          font-size: 30px;
+         }
+         .name1{
+          grid-column: 1 / span 2;
+          grid-row: 1;
+         }
+         .name2{
+          grid-column: 3;
+          grid-row: 1 / span 2;
+         }
+         .name5{
+          grid-column: 1 / span 3;
+          grid-row: 3;
+         }
+         .makingtransitions{
+          width: 200%;
+          height: 300%;
+          background-color: burlywood;
+          transition: width 2s ,height 2s ,transform 2s;
+          
+         }
+         .makingtransitions:hover {
+          width: 400px;
+          height: 500px;
+          transform: rotate(360deg);
+          background-color: fuchsia;
+         }
+         body{
+          background-image: url(https://is.zobj.net/image-server/v1/images?r=46ACGVkO5-reVvbhzqFG2fAzhO2ozHWsemnTR6Ar-gBLjizGGRgqALQi2fuVM7tQ9f0v6yQGmjq146rKhWJ-9XpJeHogrR1dvlIfSY1xPamen2ohfo_9UiBOQmJNt-6vJxbTbyeat94KyxMPUU2AanF3Hj7hYaZomsnNgP_4gc_6d5v08KhMfGMBpddlH8zOKb4227V_yFsr3H7HspEPTrLPTL_s-RjSYo8-T5TE73gjEe-oQZsw6mIvnYk);
+          background-repeat: no-repeat;
+          background-size: cover;
+         }
+          
+         
+
+        
+         
+         
+       

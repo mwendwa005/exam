@@ -1,0 +1,124 @@
+header{
+    background-color: lightblue;
+          padding: 20px;
+          text-align: center;
+        }
+        nav ul{
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          justify-content:centre;
+          display:flex;
+        }
+        
+        nav ul{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          justify-content: center;
+          display: flex;
+
+         }
+        nav li{
+          display: inline;
+          margin-right: 50px;
+          font-size: medium;
+        }
+        nav a{
+          color:black;
+          text-decoration:none;
+        }
+        body{
+          background-image: url(https://inspgr.id/app/uploads/2017/02/desing-oorloff-07.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        article{
+            float: none;
+            padding: 2px;
+            width: 500px;
+            background-color: floralwhite;
+            height: 400px;
+        }
+        .home:hover{
+            background-color: green;
+            text-align: center;
+        }
+        .life{
+            background-color: darksalmon;
+        }
+        div.gallery {
+            margin: 5px;
+            border: 1px solid black;
+            float: left;
+            width: 180px;
+          }
+          
+          div.gallery:hover {
+            border: 1px solid black;
+          }
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc{
+            padding: 15px;
+            text-align: center;
+        }
+        #quote{
+            float: none;
+            padding: 20px;
+            width: 4000px;
+            background-color:rgb(92, 51, 92) ;
+            height: 250px;
+        }
+         #footer{
+          padding:8px;
+          text-align:right;
+          background-color: gold;
+          color: black;
+          font-size: 15px;
+          padding: 10px;
+          ba
+           }
+           a {
+            display: block;
+          }
+          h1 {
+            text-shadow: 2px 2px 5px red;
+          }
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          .div {
+            width: 300px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 15s;
+            animation-direction: reverse;  
+            text-align: center;
+            text-decoration: double;
+            font-size: xx-large;
+            text-shadow: 2px 2px 2px black ;
+            padding: 2px;
+            
+          }
+          
+          @keyframes example {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;}
+            50%  {background-color:blue; left:200px; right:500px;}
+            75%  {background-color:green; left:0px; right:500px;}
+            100% {background-color:red; left:0px; top:0px;}
+          }
+          .fab fab-facebook-square{
+            color: blue;
+          }
+          
+          
+        
